@@ -45,13 +45,21 @@ New apps are regularly being added. If your favorite app isn't available yet, yo
 
 
 ## Updating apps
-Providing you with a stable experience is our main priority. As such we don't just automatically apply updates as they are released, but test them in a staging environment before making them available to all pods. Updates should also be for a stable release (in the context of the project) and released for a minimum of 3 days. Generally updates will reach your pod within 1-2 weeks of their release, but often sooner.
 
-For security-related updates, we may do ad-hoc updates of single apps.
+Providing a stable experience is our top priority, so we don't roll out updates the moment they're released. Instead:
 
-For breaking changes (as defined in release logs), we will send a notification by email one week before the update.
+**Routine updates**
+- We test each update in a staging environment before making it available to pods.
+- Updates must be a stable release (as defined by the project) and have been available for at least 48 hours.
+- These usually reach your pod within about a week of release, often sooner.
+- If an update includes breaking changes (as defined in the release notes) that may require your attention, we'll email you one week beforehand.
 
-For all other updates, you can choose to receive a notification when your pod is updated by changing the setting in *Edit Pod Settings > Basics > Notify me of updates*.
+**Security & urgent bug fixes**
+- We apply these ad-hoc, as soon as the bugfix release is available.
+- The update typically lands within a few hours.
+
+Want to know when your pod updates? Enable notifications under *Edit Pod Settings > Basics > Notify me of updates*.
+
 
 ## Missing environment variables
 When adding new apps, we will add the most common and useful env vars from the start. Sometimes this doesn't include very specific or newly added env vars. If you find that an env var you want to use is missing, just send us an email to [hello@pikapods.com](mailto:hello@pikapods.com) and we will add it right away.
