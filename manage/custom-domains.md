@@ -60,3 +60,9 @@ If you want to restrict your pod to only receive traffic from Cloudflare and blo
 
 ![Cloudflare WAF Exception](cloudflare-waf.png)
 
+When creating the skip rule for the path /.well-known/*, select *All managed rules* under *"WAF components to skip"*. This is the key one, as Cloudflare's managed rules are what could block the ACME certificate challenge requests we use to renew your SSL certificate.
+
+![Cloudflare WAF Rule](cloudflare-waf-rule)
+
+You can also tick All remaining custom rules if you want to be safe, but it's only necessary if you have your own custom WAF rules that might also match that path.
+
