@@ -54,6 +54,7 @@ These aren't exposed as settings; they live in ntfy's `server.yml`. Because your
 
 - **Browser/web push** — generate a VAPID keypair and set `web-push-*`. See [web push](https://docs.ntfy.sh/config/#web-push).
 - **Email notifications** — set `smtp-sender-*` to your SMTP provider. See [e-mail notifications](https://docs.ntfy.sh/config/#e-mail-notifications) and our [sending emails](/faq/technical/#sending-emails) notes.
+- **iOS notification** — Use `NTFY_UPSTREAM_BASE_URL` env var and set it to https://ntfy.sh or an appropriate server to forward poll request to the upstream server. You may also set `NTFY_UPSTREAM_ACCESS_TOKEN` with access token to use for the upstream server; needed only if upstream rate limits are exceeded or upstream server requires auth.
 
 The [ntfy configuration reference](https://docs.ntfy.sh/config/) is the source of truth — these notes only cover the PikaPods-specific bits.
 
