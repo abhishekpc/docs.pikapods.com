@@ -13,15 +13,16 @@ description: "Questions about app support, file editing, adding new apps and upd
 ## Support for Individual Apps
 If you have any concerns with your PikaPods account, billing, or an offline pod, email [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
 
-Beyond this, we can't offer support for individual apps or their features. This is because they are developed, maintained, and distributed by independent third-party authors and communities. Our focus is on ensuring your hosting environment runs smoothly and we only charge for the resources to host these apps and don't monetize your data or charge for premium features. If you need additional support, you can still get help from those sources:
+Beyond this, we can't offer support for individual apps or their features. This is because they are developed, maintained, and distributed by independent third-party authors and communities. Our focus is on ensuring your hosting environment runs smoothly and we only charge for the resources to host these apps and don't monetize your data or charge for premium features. If you need additional support, see those options:
 
-- Many apps have [notes](/apps) that explain setup steps or common issues. You also find them via *See FAQ* in your pod control panel.
-- Visit the *Project Page* link of an app and read their documentation.
-- When setting up *Env Vars*, you will find a link to the official documentation explaining each setting.
-- There may be a forum or chat room for the app to ask questions and get help from other users.
-- Sometimes the author will offer commercial support. This is also a great way to support the app's development.
-- If you think there is a bug in the app or you have an idea for a new feature, you can raise it with the developers on their GitHub Issues page.
-- For more complex projects, it can make sense to get a professional. Freelancer sites like [Upwork](https://www.upwork.com/) are good places to find expert sysadmins or web designers. This works even for smaller tasks.
+- **App Notes**: Many apps have [notes](/apps) that explain setup steps or common issues. You also find them via *See FAQ* in your pod control panel.
+- **Project Documentation**: Visit the *Project Page* link of an app and read their documentation.
+- **Env Var Documentation**: When setting up *Env Vars*, you will find a link to the official documentation explaining each setting.
+- **AI**: Try asking your AI agent (e.g. ChatGPT or Claude) to look at the screenshot or error logs. Instruct them to look for known issues, confirm the issue in the source code or provide the SQL to debug in the database.
+- **Community Forum or Chat**: There may be a forum or chat room for the app to ask questions and get help from other users.
+- **Commercial Support**: Sometimes the author will offer commercial support. This is also a great way to support the app's development.
+- **Github Issue**: If you think there is a bug in the app or you have an idea for a new feature, you can raise it with the developers on their GitHub Issues page.
+- **Freelancer**: For more complex projects, it can make sense to get a professional. Freelancer sites like [Upwork](https://www.upwork.com/) are good places to find expert sysadmins or web designers. This works even for smaller tasks.
 
 
 ## Editing app files or source code
